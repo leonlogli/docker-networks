@@ -18,13 +18,19 @@ Build the Docker image:
 docker build -t docker-networks .
 ```
 
-Run mongo db container:
+Create docker network:
 
 ```bash
-docker run -d --name mongodb mongo
+docker network create docker-networks
 ```
 
-Run the Docker container:
+Run mongo db container in the created network `docker-networks`:
+
+```bash
+docker run -d --name docker-networks-db --network docker-networks mongo
+```
+
+Run the Docker container in the same network:
 
 ```bash
 docker run -d -p 8080:3000 --rm --name docker-networks docker-networks

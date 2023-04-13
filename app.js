@@ -69,7 +69,7 @@ app.get('/people', async (req, res) => {
 })
 
 mongoose.connect(
-  'mongodb://172.17.0.2:27017/swfavorites',
+  'mongodb://docker-networks-db:27017/favorite',
   { useNewUrlParser: true, useUnifiedTopology: true },
   (err) => {
     if (err) {
