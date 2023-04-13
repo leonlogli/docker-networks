@@ -18,6 +18,12 @@ Build the Docker image:
 docker build -t docker-networks .
 ```
 
+Run mongo db container:
+
+```bash
+docker run -d --name mongodb mongo
+```
+
 Run the Docker container:
 
 ```bash
