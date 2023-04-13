@@ -1,4 +1,4 @@
-# Docker "Data & Volumes" Example
+# Docker "Docker networks" Example
 
 Docker example that shows how networks work.
 
@@ -8,7 +8,7 @@ Before you get started, you need to have the following tools installed:
 
 - Docker
 
-## Running the "Data & Volumes" Container
+## Running the "Docker networks" Container
 
 Navigate to the root directory of the cloned repository:
 

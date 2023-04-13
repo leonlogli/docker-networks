@@ -1,0 +1,67 @@
+.DS_Store
+/**/.DS_Store
+dist
+build
+.logs
+logs
+
+# Environment variables
+.env
+.env.prod
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Documentation
+docs
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory
+coverage
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Others
+.python-version
+.netlify
+.vscode/settings.json
+serviceAccount.json
+.eslintcache
+
+# logs
+/logs
+
+data/fs.*
+data/monitoring
+**.log
+.env.development
